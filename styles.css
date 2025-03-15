@@ -1,0 +1,69 @@
+body {
+    font-family: serif;
+    background-color: white;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.additional-info {
+    width: 50%;
+    text-align: left; /* Ensure text is aligned to the left */
+    padding: 20px;
+}
+.additional-info h2 {
+    text-align: left;
+    color: white; /* Set text color */
+    background-color: green;
+    font-size: 20px;
+}
+.well {
+    width: 50%;
+    text-align: center; /* Centers the "Thank You for Everything" */
+    padding: 20px;
+}
+.well p {
+    font-size: 40px;
+    color: black;
+}
+h3 {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+.CONTACT {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center;
+        gap: 10px;
+        padding: 20px;
+        margin-top: auto; /* Pushes icons to the bottom */
+    }
+    .CONTACT img{
+        width: 20px;
+        height: 20px;
+        justify-content: center;
+    }
+.social-media img {
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    
+}
+h1{
+    color: green;
+    font-size: 40px;
+}
